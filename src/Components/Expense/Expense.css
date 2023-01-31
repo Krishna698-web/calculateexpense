@@ -1,0 +1,9 @@
+.expenses{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    background-color: #71b59c;
+    border-radius: 5px;
+    padding: 1rem;
+}

@@ -1,0 +1,71 @@
+.new_expenses{
+    background-color: #71b59c;
+    margin: 1.5rem 0;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 90%;
+}
+
+.expense_form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inputs{
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    /* gap: 1rem; */
+}
+
+.field{
+    margin: .5rem;
+}
+.field label{
+    display: block;
+    font-size: 1.5rem;
+}
+
+.field input{
+    border: none;
+    border-radius: 3px;
+    margin: .5rem 0;
+    padding: 8px 1rem;
+    outline: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.btns {
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+    margin: 1.5rem 0 0 0;
+}
+
+.btn{
+    padding: 10px 1.3rem;
+    margin: 0 auto;
+    display: block;
+    font-weight: bold;
+    color: whitesmoke;
+    border-radius: 3px;
+    background: #04252c;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+@media (min-width: 740px) and (max-width: 2000px) {
+    .field label{
+        font-size: 2rem;
+    }
+    .field input{
+        font-size: 2rem;
+    }
+    .btn{
+        font-size: 1.5rem;
+    }
+}
